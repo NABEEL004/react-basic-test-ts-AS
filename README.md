@@ -1,6 +1,53 @@
-# Getting Started with Create React App
+# Alpha Story - Basic React and TypeScript Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+
+Thank you for participating in our brief assessment, focusing on React and TypeScript. Designed to be completed within 30 minutes, this test aims to gauge your familiarity with key concepts of both technologies. Don't worry if you find yourself unable to finish all tasks within the allotted time—it's primarily an opportunity for us to understand your approach and knowledge base. In such cases, we'll provide you with a chance to discuss your thought process and how you would tackle any remaining tasks.
+
+# Test Overview
+
+This test is composed of 5 distinct tasks, each designed to evaluate your proficiency in React and TypeScript through practical challenges. You'll be tasked with creating functions to manage tasks within a To-Do list application and applying styling using Tailwind CSS to enhance its visual appeal.
+
+You are given a very basic To-do List website. You will be required to add some basic functionality to the To-Do list and to add some CSS - using Tailwind - to enhance the look of the List visually.
+
+## Tips & Hints
+
+1. We will also be looking at how you handle your Types - so remember to include them!
+2. Remember to comment your code where necessary
+
+## TASK 1: TodoItem Component
+
+Create a new component named `TodoItem` in a file called `TodoItem.tsx`. This component should accept the following props:
+
+- `task`: The task description.
+- `deleteTask`: A function to delete the task.
+- `toggleComplete`: A function to toggle the task's completion status.
+
+### Functionalities
+
+1. Include a toggle button that marks the task as completed or incomplete.
+2. Incorporate a delete button to remove the task.
+3. Display the task text.
+4. (Optional) Apply some basic Tailwind CSS styling for visual enhancement.
+
+## TASK 2: Task Submission Form
+
+Develop a form that allows users to input a task. The form should comprise:
+
+- A text input field for the task description.
+- A submit button to add the task.
+
+### Behavior
+
+- Upon clicking the submit button, the text from the input field should be added as a new task.
+- After submission, reset the input field to an empty string ("").
+
+## TASK 3: Tailwind CSS Styling
+
+Demonstrate your Tailwind CSS proficiency by adding style and creativity to the To-Do list. Your styling should:
+
+1. Organize the task items into a three-column grid layout.
+2. Encourage you to apply additional stylistic enhancements as you see fit. Be as creative as you'd like!
 
 ## Available Scripts
 
@@ -13,35 +60,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# react-basic-test-ts-AS
