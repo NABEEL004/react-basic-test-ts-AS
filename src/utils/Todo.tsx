@@ -1,26 +1,16 @@
 const TODO_LIST = [
   {
     id: 1,
-    text: "Create addTask",
+    text: "Create new component",
     completed: false,
   },
   {
     id: 2,
-    text: "Create deleteTask",
+    text: "Create user form",
     completed: false,
   },
   {
     id: 3,
-    text: "Create toggleComplete",
-    completed: false,
-  },
-  {
-    id: 4,
-    text: "Create form for users to add tasks",
-    completed: false,
-  },
-  {
-    id: 5,
     text: "Design with Tailwind",
     completed: false,
   },

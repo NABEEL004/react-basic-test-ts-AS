@@ -21,7 +21,7 @@ Create a new component named `TodoItem` in a file called `TodoItem.tsx`. This co
 
 - `task`: The task description.
 - `deleteTask`: A function to delete the task.
-- `toggleComplete`: A function to toggle the task's completion status.
+- `toggleCompleted`: A function to toggle the task's completion status.
 
 ### Functionalities
 

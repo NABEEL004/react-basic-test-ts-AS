@@ -5,6 +5,12 @@ import { Task } from "../utils/Todo";
 // 2. You will need to have the following for each To Do item:
 //   a. an input field of type checkbox: to display if task is completed/ to toggle task completion (toggleComplete function)
 //   b. a button to delete task (use the deleteTask function)
+// 3. This is an example of what a Task object looks like
+// {
+//   id: 1,
+//   text: "Create new component",
+//   completed: false,
+// }
 
 type TodoItemProps = {
   // Create the Type for your Props here
