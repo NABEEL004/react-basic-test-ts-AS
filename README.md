@@ -10,6 +10,16 @@ This test is composed of 5 distinct tasks, each designed to evaluate your profic
 
 You are given a very basic To-do List website. You will be required to add some basic functionality to the To-Do list and to add some CSS - using Tailwind - to enhance the look of the List visually.
 
+# Setup Instructions
+1. Fork this repo (https://github.com/farischew/react-basic-test-ts-AS)
+   a. Copy the Main Branch only
+   b. Set your own account as the Owner
+2. Clone your forked repo into your local
+3. In your terminal, navigate to the files
+4. In your terminal, run `npm install`
+5. In your terminal, run `npm run start`
+6. This should automatically open the app in dev mode in your default browser. If not, open [http://localhost:3000](http://localhost:3000)   
+
 ## Tips & Hints
 
 1. We will also be looking at how you handle your Types - so remember to include them!
@@ -49,11 +59,18 @@ Demonstrate your Tailwind CSS proficiency by adding style and creativity to the 
 1. Organize the task items into a three-column grid layout.
 2. Encourage you to apply additional stylistic enhancements as you see fit. Be as creative as you'd like!
 
+## Mock Up of Final Output
+<img width="1707" alt="Screenshot 2024-03-12 at 11 24 24 AM" src="https://github.com/farischew/react-basic-test-ts-AS/assets/118903492/0b721f17-66f9-4823-beb1-aad55361c1af">
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install`
+
+Install all packages in package.json
+
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
