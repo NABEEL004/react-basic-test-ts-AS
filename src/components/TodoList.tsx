@@ -35,18 +35,31 @@ function TodoList() {
     );
   }
 
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setText(e.target.value)
+  }
+
+  function handleSubmit() {
+    addTask(text)
+    setText("")
+  }
+
   return (
     <div>
       {/* Your newly created component should be called below like so: */}
-      {/* {tasks.map((task) => (
+      {tasks.map((task) => (
         <TodoItem
           key={task.id}
-          task={task}
-          deleteTask={deleteTask}
-          toggleCompleted={toggleCompleted}
+          task={task.text}
+          completed = {task.completed}
+          deleteTask={() => deleteTask(task.id)}
+          toggleCompleted={() => toggleCompleted(task.id)}
         />
-      ))} */}
-      <div className="flex gap-3">{/* Add your Form here (Task 2) */}</div>
+      ))}
+      <div className="flex gap-3 items-center justify-center">
+        <input className="border border-gray-400 rounded-md" type="text" value={text} onChange={(e) => handleChange(e)}/>
+        <button className="border border-gray-400 rounded-md bg-blue-500 text-white px-6" onClick = {() => {handleSubmit()}}>Add</button>
+      </div>
     </div>
   );
 }
